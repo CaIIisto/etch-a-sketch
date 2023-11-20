@@ -1,0 +1,39 @@
+
+body {
+    display: grid;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    color: rgb(255, 205, 43);;
+    margin: 0px;
+    justify-items: center;
+    background-image: url(../images/just-waves.webp);
+}
+.refresh {
+    margin-bottom: 5%;
+    width:30%;
+    max-width: 150px;
+    aspect-ratio: 3;
+    height:auto;
+    justify-self: center;
+    background-color: rgb(210, 187, 160);
+    border-style: solid;
+    border-color: rgb(255, 228, 118);
+
+}
+
+.refresh:hover{
+    background-color:rgb(187, 162, 134);
+}
+.drawing-bounds {
+    justify-self: center;
+    width: 700px;
+    height:700px;
+    background-color: gainsboro;
+    margin-bottom: 10%;
+}
+
+.grid-row{
+   display: flex; 
+}
+.grid-box {
+    border:1px solid brown;
+}
